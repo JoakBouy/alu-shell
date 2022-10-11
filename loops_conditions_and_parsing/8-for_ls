@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#script displays
+
+#content of current directory
+
+#in list format
+
+#where only part of the name after the dash is displayed
+
+FILES="$(ls)"
+
+for i in $FILES;
+
+do
+
+     NEW=$(find . -maxdepth 1 -name "$i" |cut -d "/" -f2 | cut -d "-" -f2)
+
+     echo "$NEW"
+
+done

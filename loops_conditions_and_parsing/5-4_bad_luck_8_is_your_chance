@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+#script that displays best school 10 times
+
+#bad luck for 4th loop
+
+#good luck for 8th loop
+
+#Best school for other iterations
+
+COUNT=0
+
+while((COUNT<10));do
+
+    if [ "$COUNT" -eq 7 ] ;then
+
+           echo "good luck"
+
+    elif [ "$COUNT" -eq 3 ] ;then
+
+           echo "bad luck"
+
+      else
+
+           echo "Best School"
+
+      fi
+
+((COUNT++))
+
+done;
