@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #script that tests files with various outcomes
 
 FILE=$( find . -name "school" |cut -d "/" -f2)
