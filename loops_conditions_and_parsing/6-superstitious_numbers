@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
-
 #script that displays numbers from 1 to 20
-
 #displays bad luck from China on 4th loop
-
 #displays bad luck from Japan on 9th loop
-
 #displays bad luck from Italy on 17th loop
 
 COUNT=1

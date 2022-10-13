@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
-
 #script displays
-
 #content of current directory
-
 #in list format
-
 #where only part of the name after the dash is displayed
 
 FILES="$(ls)"

@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #script to display best school 10 times while using a loop with a Hi on 9th line
 
 COUNT=9

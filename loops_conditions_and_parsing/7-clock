@@ -1,21 +1,12 @@
-cript that displays time in detail
-
+#!/usr/bin/env bash
+#script that displays time in detail
 COUNT=0
-
 while((COUNT<=12));do
-
         echo "Hour: $COUNT"
-
 	HOUR=1
-
 	while((HOUR<=59));do
-
         echo "$HOUR"
-
       ((HOUR++))
-
    done;
-
 ((COUNT++))
-
 done;
